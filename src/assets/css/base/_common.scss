@@ -1,0 +1,23 @@
+//======================
+// Common
+//======================
+
+.fl { 
+	float: left;
+}
+
+.fr { 
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+.mt20 {
+	margin-top: rem(20);
+}
+
+.clearfix {
+	@include clearfix;
+}

@@ -1,0 +1,47 @@
+//------------------
+// flex
+//------------------
+
+@mixin flex {
+	display: flex;
+}
+
+@mixin flex-justify {
+	@include flex;
+	justify-content: space-between; /* 横向对齐方式 */
+}
+
+@mixin flex-center {
+	@include flex;
+	justify-content: center;
+}
+
+@mixin flex-valign-center {
+	@include flex;
+	align-items: center; /* 竖向对齐方式 */
+}
+
+
+.flex {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+// .flex-horizontal {
+// 	display: flex;
+// 	flex-direction: row;
+// }
+
+// .flex-vertical {
+// 	display: flex;
+// 	flex-direction: column;
+// }
